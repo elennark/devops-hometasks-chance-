@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 env:
   TAG: ${{ github.sha }}
-  REGISTRY: ghcr.io
+  REGISTRY: ghcr.io #(нужно уточнить)
   IMAGE_NAME: ${{ github.repository }}
 jobs:
   build:
